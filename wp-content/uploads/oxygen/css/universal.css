@@ -458,7 +458,7 @@ text-align:left;
                 .ct-section-inner-wrap, .oxy-header-container{
   max-width: 1120px;
 }
-body {font-family: 'Inter';}body {line-height: 1.6;font-size: 14px;font-weight: 400;color: #ffffff;}.oxy-nav-menu-hamburger-line {background-color: #ffffff;}h1, h2, h3, h4, h5, h6 {font-family: 'Inter';font-size: 64px;}h2, h3, h4, h5, h6{font-size: 48px;}h3, h4, h5, h6{font-size: 36px;}a {color: color(2);text-decoration: none;}a:hover {color: color(3);text-decoration: none;}.ct-link-text {color: #ffffff;text-decoration: none;}.ct-link {text-decoration: ;}.ct-link-button {border-radius: 3px;}.ct-section-inner-wrap {
+body {font-family: 'Montserrat';}body {line-height: 1.6;font-size: 14px;font-weight: 400;color: #ffffff;}.oxy-nav-menu-hamburger-line {background-color: #ffffff;}h1, h2, h3, h4, h5, h6 {font-family: 'Montserrat';font-size: 64px;}h2, h3, h4, h5, h6{font-size: 48px;}h3, h4, h5, h6{font-size: 36px;}a {color: color(2);text-decoration: none;}a:hover {color: color(3);text-decoration: none;}.ct-link-text {color: #ffffff;text-decoration: none;}.ct-link {text-decoration: ;}.ct-link-button {border-radius: 3px;}.ct-section-inner-wrap {
 padding-top: 75px;
 padding-right: 20px;
 padding-bottom: 75px;
@@ -488,6 +488,167 @@ padding-left: 20px;
 					margin: 0 !important;
 				}
 			}
+.oxel_logo_slider {
+ width:100%;
+ position:relative;
+ overflow:hidden;
+ background-color:#ffffff;
+ text-align:center;
+}
+.oxel_logo_slider:not(.ct-section):not(.oxy-easy-posts),
+.oxel_logo_slider.oxy-easy-posts .oxy-posts,
+.oxel_logo_slider.ct-section .ct-section-inner-wrap{
+display:flex;
+align-items:center;
+}
+.oxel_logo_slider__logo {
+ transition-duration:0.3s;
+ transition-timing-function:ease-in-out;
+ width:20%;
+ height:100px;
+ text-align:center;
+ padding-top:16px;
+ padding-left:16px;
+ padding-right:16px;
+ padding-bottom:16px;
+}
+.oxel_logo_slider__logo:not(.ct-section):not(.oxy-easy-posts),
+.oxel_logo_slider__logo.oxy-easy-posts .oxy-posts,
+.oxel_logo_slider__logo.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+.oxel_logo_slider__image_carrier {
+ width:100%;
+ text-align:left;
+ flex-shrink:0;
+ transition-duration:0.1s;
+ transition-timing-function:linear;
+}
+.oxel_logo_slider__image_carrier:not(.ct-section):not(.oxy-easy-posts),
+.oxel_logo_slider__image_carrier.oxy-easy-posts .oxy-posts,
+.oxel_logo_slider__image_carrier.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:flex-start;
+}
+.oxel_logo_slider__image_carrier--delay {
+}
+.agencyb-hero-1-video:hover{
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+transform: rotate(0deg);
+}
+.agencyb-hero-1-video {
+ border-radius:20px;
+ position:relative;
+ overflow:hidden;
+ transition-duration:0.5s;
+ transition-timing-function:ease;
+ transition-property:all;
+ text-align:center;
+ max-width:480px;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.3);
+transform: rotate(-15deg); } .agencyb-hero-1-video:hover .agencyb-hero-1-play { opacity: 1; transform: rotate(0deg);
+}
+.agencyb-hero-1-video:not(.ct-section):not(.oxy-easy-posts),
+.agencyb-hero-1-video.oxy-easy-posts .oxy-posts,
+.agencyb-hero-1-video.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+.agencyb-hero-1-play {
+ width:96px;
+ height:96px;
+ opacity:0.7;
+ position:absolute;
+ transition-timing-function:ease;
+ transition-property:all;
+ transition-duration:0.2s;
+transform: rotate(15deg);
+}
+@media (max-width: 479px) {
+.agencyb-hero-1-play {
+ width:64px;
+ height:64px;
+}
+}
+
+.agencyb-heading-one {
+ font-family:Montserrat;
+ color:#ffffff;
+ font-weight:700;
+ font-size:64px;
+ line-height:1;
+}
+@media (max-width: 767px) {
+.agencyb-heading-one {
+ font-size:64px;
+}
+}
+
+@media (max-width: 479px) {
+.agencyb-heading-one {
+ font-size:56px;
+}
+}
+
+.agencyb-white-button:hover{
+background-color :#ffffff;
+border: 1px solid #ffffff;
+}.agencyb-white-button:hover{
+transform: scale(1.05,1.05);
+}
+.agencyb-white-button {
+background-color :#ffffff;
+border: 1px solid #ffffff;
+color: #043c5b;
+padding: 14px 22.4px;
+}.agencyb-white-button {
+ font-family:Montserrat;
+ button-hover_color:#ffffff;
+ font-size:18px;
+ font-weight:300;
+ padding-left:48px;
+ padding-right:48px;
+ line-height:1.2;
+ letter-spacing:2px;
+ border-radius:100px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ text-align:center;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.3);
+}
+.agencyb-video-popup {
+background-image: linear-gradient(135deg, rgba(255,159,46,0.9), rgba(247,35,196,0.9)); width:100%;
+ height:100%;
+ position:fixed;
+ top:0px;
+ left:0px;
+ text-align:center;
+ padding-top:24px;
+ padding-left:24px;
+ padding-right:24px;
+ padding-bottom:24px;
+z-index: 1000;
+}
+.agencyb-video-popup:not(.ct-section):not(.oxy-easy-posts),
+.agencyb-video-popup.oxy-easy-posts .oxy-posts,
+.agencyb-video-popup.ct-section .ct-section-inner-wrap{
+display:none;
+flex-direction:unset;
+align-items:center;
+justify-content:center;
+}
+.agencyb-modal-video {
+}
 .atomic-primary-heading {
  color:color(4);
  font-size:64px;
@@ -539,7 +700,7 @@ padding-left: 20px;
 }
 
 .atomic-subheading {
- font-family:Inter;
+ font-family:Montserrat;
  color:color(4);
  font-size:24px;
  line-height:1.6;
@@ -687,7 +848,7 @@ color: color(1);
  color:color(1);
 }
 .atomic-primary-button {
- font-family:Inter;
+ font-family:Montserrat;
  background-color:color(2);
  padding-top:20px;
  padding-bottom:20px;
@@ -729,7 +890,7 @@ color: color(1);
 }
 
 .atomic-small-text {
- font-family:Inter;
+ font-family:Montserrat;
  color:color(7);
  font-size:12px;
  font-weight:300;
@@ -940,7 +1101,7 @@ border: 1px solid color(17);
 color: color(17);
 padding: 9px 15px;
 }.atomic-outline-button {
- font-family:Inter;
+ font-family:Montserrat;
  font-weight:700;
  border-top-style:solid;
  border-right-style:solid;
@@ -1314,7 +1475,7 @@ align-items:center;
 -moz-osx-font-smoothing:grayscale; margin-bottom:24px;
 }
 .atomic-testimonial-11-text {
- font-family:Inter;
+ font-family:Montserrat;
  color:#18191f;
  font-size:18px;
  font-weight:700;
@@ -1460,7 +1621,7 @@ flex-direction:unset;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-content-32-small-text {
- font-family:Inter;
+ font-family:Montserrat;
  color:color(7);
  margin-bottom:8px;
  font-weight:400;

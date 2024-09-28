@@ -1,0 +1,129 @@
+# Copyright (C) 2024 Arshid
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP SMTP Mailer - SMTP7 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-mail-smtp-mailer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-18T05:09:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: wp-mail-smtp-mailer\n"
+
+#. Plugin Name of the plugin
+#: wp-mail-smtp-mailer.php
+msgid "WP SMTP Mailer - SMTP7"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp-mail-smtp-mailer.php
+msgid "https://ciphercoin.com/"
+msgstr ""
+
+#. Description of the plugin
+#: wp-mail-smtp-mailer.php
+msgid "Make email delivery easy from WordPress. It is easy to configure."
+msgstr ""
+
+#. Author of the plugin
+#: wp-mail-smtp-mailer.php
+msgid "Arshid"
+msgstr ""
+
+#: settings.class.php:28
+msgid "WP Mail SMTP7 Options"
+msgstr ""
+
+#: settings.class.php:28
+msgid "SMTP7"
+msgstr ""
+
+#: settings.class.php:63
+msgid "Host"
+msgstr ""
+
+#: settings.class.php:70
+msgid "Port"
+msgstr ""
+
+#: settings.class.php:76
+msgid "Username"
+msgstr ""
+
+#: settings.class.php:82
+msgid "Password"
+msgstr ""
+
+#: settings.class.php:89
+msgid "Choose SSL or TLS, if necessary for your server"
+msgstr ""
+
+#: settings.class.php:116
+msgid "From"
+msgstr ""
+
+#: settings.class.php:123
+msgid "From Name"
+msgstr ""
+
+#: settings.class.php:129
+msgid "Encrypt"
+msgstr ""
+
+#: settings.class.php:141
+msgid "Reset values"
+msgstr ""
+
+#: settings.class.php:142
+msgid "Test Email"
+msgstr ""
+
+#: settings.class.php:152
+msgid "To Email"
+msgstr ""
+
+#: settings.class.php:158
+msgid "Body"
+msgstr ""
+
+#. translators: screen reader text
+#: settings.class.php:172
+msgid "%1$s  %2$s %3$s"
+msgstr ""
+
+#. translators: screen reader text
+#: settings.class.php:181
+msgid "If you like %1$s please leave us a %2$s in advance!"
+msgstr ""
+
+#: settings.class.php:204
+#: settings.class.php:263
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: settings.class.php:220
+msgid "Message sent..!"
+msgstr ""
+
+#. translators: Rating request
+#: settings.class.php:227
+msgid "Awesome, you've been using %1$s. May we ask you to give it a 5-star rating on WordPress? | <a href=\"%3$s\" target=\"_blank\">Ok, you deserved it</a> | <a href=\"%2$s\">I alredy did</a> | <a href=\"%2$s\">No, not good enough</a>"
+msgstr ""
+
+#: settings.class.php:247
+msgid "SMTP Error: Could not authenticate..! "
+msgstr ""
+
+#. translators: 1: Settings slug, 2: Repository url
+#: settings.class.php:331
+msgid "Awesome, you've been using <a target=\"_blank\" href=\"%1$s\">SMTP Mailer - SMTP7</a> for more than 1 week. May we ask you to give it a 5-star rating on WordPress? | <a href=\"%2$s\" target=\"_blank\">Ok, you deserved it</a> | <a href=\"%1$s\">I alredy did</a> | <a href=\"%1$s\">No, not good enough</a>"
+msgstr ""
+
+#: wp-mail-smtp-mailer.php:43
+msgid "Settings"
+msgstr ""
